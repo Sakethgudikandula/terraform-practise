@@ -1,13 +1,7 @@
 provider "aws" {
     region = "us-east-1"
-    access_key = ""
-<<<<<<< HEAD
-    secret_key = 
-=======
-    secret_key = "" 
->>>>>>> 441893d6cf6c697a8972dd2019b8f9ee2e56957b
+    access_key = "
 }
-
 resource "aws_instance" "practise" {
     ami = var.ami
     instance_type = var.instance_type
